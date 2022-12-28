@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Entry form</title>
+</head>
+
+<body>
+    
+    <h1>PERSONAL DETAILS</h1>
+ 
+    <form>
+
+        <label for="fname">Frist Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Name"> </input> <br><br>
+
+        <label for="fname">Middle Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Name"> </input> <br><br>
+
+        <label for="fname">Last Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Name"> </input> <br><br>
+
+        <label for="Sex">Sex:- </label><br>
+        
+        <label for="Sex"> Male </label>
+        <input type="radio" name="Sex" id="Male"><br>
+       
+        <label for="Sex"> Female </label>
+        <input type="radio" name="Sex" id="Female"><br>
+
+        <label for="Sex"> Other </label>
+        <input type="radio" name="Sex" id="Other"> <br> <br>
+        
+        <label for="Education"> Education: </label>
+        <input list="Education" name="Education"placeholder="Select"> <br><br>
+            <datalist id="Education">
+                <option value="BSC"></option>
+                <option value="BCS"></option>
+                <option value="B.PHARM"></option>
+                <option value="B.AGRI"></option>
+                <option value="BE.ENGG"></option>
+                <option value="B.TECH"></option>
+                <option value="MSC"></option>
+                <option value="MCS"></option>
+                <option value="M.PHARM"></option>
+             </datalist>
+       
+        <label for="email">E-Mail: </label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com"> <br> <br>
+
+        <label for="number"> Mobile: </label>
+        <input type="tel" name="number" id="number" maxlength="10" minlength="10">
+
+        <label for="number"> Phone: </label>
+        <input type="tel" name="number" id="number" maxlength="10" minlength="10"> <br><br>
+
+        <label for="date"> DOB: </label>
+        <input type="date" name="date" id="date"> <br><br>
+
+        <label for="number"> Flat No: </label>
+        <input type="tel" name="number" id="number">
+
+        <label for="fname"> Area: </label>
+        <input type="text" name="fname" id="fname"><br> <br>
+
+        <label for="Address"> Permenant Address: </label>
+        <textarea name="Permenant Address" cols="50" row="50"> </textarea> <br><br>
+
+        <label for="Address"> Corresponding Address: </label>
+        <textarea name= "Corresponding Address" cols="50" row="50"> </textarea> <br><br>
+
+        <label for="number"> Pin-Code: </label>
+        <input type="tel" name="number" id="number"><br><br>
+        
+        Upload Files: <input type="file" name="img" multiple>
+        <input type="submit" value="Upload"><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+        
+
+    </form>
+    
+
+</body>
+</html>

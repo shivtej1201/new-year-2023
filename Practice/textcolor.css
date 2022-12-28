@@ -1,0 +1,23 @@
+body{
+    color:rgb(0, 255, 204);
+    text-align: center;
+    
+    
+  }
+  h1{
+    color:rgb(163,65,57);
+  }
+  
+img{
+  border: 1px;
+  text-decoration: aqua;
+
+}
+marquee{
+  color:royalblue;
+}
+footer{
+  background-color: aqua;
+  color: black;
+  
+}
